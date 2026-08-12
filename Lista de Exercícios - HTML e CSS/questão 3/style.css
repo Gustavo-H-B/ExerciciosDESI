@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(139, 51, 0);
+}
+
+section {
+    background-color: darkgoldenrod;
+    border: 5px solid black;
+    border-radius: 50px;
+    height: 650px;
+    width: 600px;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.walle {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.desc {
+    background-color: grey;
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 100px;
+    width: 500px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.preco {
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 25px;
+    width: 125px;
+    background-color: darkred;
+    color: white;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.comprar:hover{
+    background-color: darkgray;
+    color: black;
+}
+
+.carrinho:hover{
+    background-color: lightgray;
+    color: darkred;
+}
