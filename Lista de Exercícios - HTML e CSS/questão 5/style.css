@@ -1,0 +1,8 @@
+.infos {
+    border: 3px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+    height: 300px;
+}

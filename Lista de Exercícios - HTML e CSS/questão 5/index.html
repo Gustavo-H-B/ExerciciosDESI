@@ -8,8 +8,36 @@
 </head>
 <body>
     <main>
-        <section>
-            
+        <section class="infos">
+            <div>
+                <label for="nome">Nome Completo: </label>
+                <input id="nome" type="text" placeholder="Digite seu nome" required>
+            </div>
+            <div>
+                <label for="email">E-mail: </label>
+                <input id="email" type="email" placeholder="Digite seu email" required>
+            </div>
+            <div>
+                <label for="dataNacimento">Data de Nascimento: </label>
+                <input id="dataNascimento" type="date">
+            </div>
+            <div>
+            <label for="ingresso">Tipo do Ingresso: </label>
+                <select id="ingresso">
+                    <option value="meia">Meia</option>
+                    <option value="inteira">Inteira</option>
+                    <option value="vip">VIP</option>
+                </select>
+            </div>
+            <div>
+                <label for="mensagem">Alguma Observação?</label>
+                <br>
+                <textarea id="mensagem"></textarea>
+            </div>
+        </section>
+        <section class="botao">
+            <button id="reset" type="reset">Limpar</button>
+            <button id="submit" type="submit">Enviar</button>
         </section>
     </main>
 </body>
