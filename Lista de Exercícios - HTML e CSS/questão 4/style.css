@@ -1,0 +1,51 @@
+body {
+    background-image: url('https://wallpapers.com/images/high/meme-pictures-iinx5kurf3ptzjxx.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 745px;
+    width: 1580px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rosto {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.troll:hover{
+    background-color: red;
+}
+.meme:hover{
+    background-color: green;
+}
+.tutorial:hover{
+    background-color: blue;
+}
+.musica:hover{
+    background-color: orange;
+}
+.ideia:hover{
+    background-color: pink;
+}
+.site:hover{
+    background-color: purple;
+}
+
+button {
+    height: 25px;
+    background-color: black;
+}
+
+a {
+    color: white;
+}
