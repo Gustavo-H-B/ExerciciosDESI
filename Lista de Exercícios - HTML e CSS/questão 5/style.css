@@ -1,8 +1,44 @@
+body {
+    background-image: url(assets/cinema.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
 .infos {
     border: 3px solid black;
     border-radius: 30px;
     display: flex;
     flex-wrap: wrap;
-    max-width: 350px;
-    height: 300px;
+    max-width: 300px;
+    height: 275px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+button {
+    margin: 5px;
+}
+
+.resetar {
+    background-color: darkred;
+}
+
+.submitar {
+    background-color: darkgreen;
+}
+
+::placeholder {
+    color: darkorange;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    gap: 15px;
 }
