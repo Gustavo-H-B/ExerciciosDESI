@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(104, 104, 104);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    gap: 15px;
+}
+
+section {
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+img {
+    border-radius: 30px;
+    height: 500px;
+    width: 350px;
+}
+
+.cebolinha {
+    height: 650px;
+    width: 450px;
+    background-color: rgb(32, 32, 32);
+    border: 5px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.salsicha {
+    height: 650px;
+    width: 450px;
+    background-color: rgb(32, 32, 32);
+    border: 5px solid red;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bob {
+    height: 650px;
+    width: 450px;
+    background-color: rgb(32, 32, 32);
+    border: 5px solid yellow;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+p {
+    text-align: center;
+    color: red;
+}
